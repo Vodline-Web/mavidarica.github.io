@@ -51,6 +51,30 @@
       <span>Kaynak: Sosyal Medya</span>
     </a>
 
+    <a href="haber3.html" class="card">
+      <h2>Riskli Bina Boşaltıldı!</h2>
+      <p>Darıca'da riskli olduğu tespit edilen binanın sakinleri tahliye edildi..</p>
+      <span>Kaynak: Çağdaş Kocaeli Gazetesi</span>
+    </a>
+
+    <a href="haber4.html" class="card">
+      <h2>Darıca’da Belediye Voleybol Turnuvası Başladı!</h2>
+      <p>Darıca Belediyesi’nin düzenlediği kurumlar arası voleybol turnuvası heyecanıyla ilçede spor dolu günler yaşanıyor.</p>
+      <span>Kaynak: SonDakika</span>
+    </a>
+
+    <a href="haber5.html" class="card">
+      <h2>Darıca’da Eşsiz Sahil ve Belediye Hizmetleri Gündemde!?</h2>
+      <p>Yerel kaynaklara göre Darıca’da güvenli alışveriş denetimleri yapıldı</p>
+      <span>Kaynak: KocaeliTV</span>
+    </a>
+
+    <a href="haber6.html" class="card">
+      <h2>Darıca’da Kaçak Tütün Operasyonu: 800 Bin TL’lik Mal Ele Geçirildi</h2>
+      <p>Kocaeli’nin Darıca ilçesinde jandarma ekipleri tarafından düzenlenen operasyonda yaklaşık 810 kg kaçak tütün ve 337 bin makaron ele geçirildi.</p>
+      <span>Kaynak: SonDakika</span>
+    </a>
+
   </section>
 
 </main>
@@ -70,7 +94,7 @@
 </div>
 <footer class="legal-footer">
   <p>
-    © 2025 Mavi Darıca. Tüm hakları saklıdır.  
+    © 2026 Mavi Darıca. Tüm hakları saklıdır.  
     Bu sitede yer alan içerikler bilgilendirme amaçlıdır.
     İzinsiz kopyalanamaz, çoğaltılamaz, dağıtılamaz. Site içeriğinden doğabilecek herhangi bir hata veya zarardan Mavi Darıca sorumlu tutulamaz.
 
@@ -84,6 +108,21 @@
    </p>
 
 </footer>
+
+<script>
+let secret = "";
+const target = "beratakkurt";
+
+document.addEventListener("keydown", (e) => {
+  secret += e.key.toLowerCase();
+  if (!target.startsWith(secret)) {
+    secret = "";
+  }
+  if (secret === target) {
+    window.location.href = "beratakkurtözelsayfa.html";
+  }
+});
+</script>
 
 </body>
 </html>
