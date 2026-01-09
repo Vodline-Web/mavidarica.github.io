@@ -268,3 +268,14 @@ body a:hover {
   font-weight: bold;
   cursor: pointer;
 }
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-logo img {
+  height: 250px;
+  width: auto;
+}
